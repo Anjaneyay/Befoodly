@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a{
+    margin-left: 0px;
+     padding: 0px;
+}
+input{
+    margin-left : 1040px;
+    position: absolute;
+    
+    
+}
+button{
+    display: inline-block;
+    margin-left: 1210px;
+    position: absolute;
+    
+    
+
+}
+
+#navbar{
+    background-color: #136433;
+    width: 100%;
+    
+}
+
+#image{
+    text-align: center;
+
+}
+#heading{
+    background-color: #fbbc14 ;
+    height: 81px;
+    position:sticky;
+}
+#feedback{
+    font-weight: 550;
+    background-color: #fbbc14 ;
+    font-family: cambria;
+}
+#sidebar{
+    text-decoration: none;
+}
+<style>
+a:link {
+  color: rgb(77, 70, 70);;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(77, 70, 70);;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(77, 70, 70);;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(77, 70, 70);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
