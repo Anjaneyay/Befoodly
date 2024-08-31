@@ -36,6 +36,34 @@ button{
     height: 81px;
     position:sticky;
 }
+#first{
+    color:#006400 ;
+}
+#second{
+    color:#006400 ;
+}
+#third{
+    color:#006400 ;
+}
+#fourth{
+    color:#006400 ;
+}
+#fifth{
+    color:#006400 ;
+}
+#sixth{
+    color:#006400 ;
+}
+#seventh{
+    color:#006400 ;
+}
+#eight{
+    color:#006400 ;
+}
+#ninth{
+    color:#006400 ;
+}
+
 #feedback{
     font-weight: 550;
     background-color: #fbbc14 ;
@@ -46,27 +74,21 @@ button{
 }
 <style>
 a:link {
-  color: rgb(77, 70, 70);;
-  background-color: transparent;
+  color: #32CD32;
+  background-color:#32CD32;
   text-decoration: none;
 }
 
-a:visited {
-  color: rgb(77, 70, 70);;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 
 a:hover {
-  color: rgb(77, 70, 70);;
+  color: #fbbc14 ;
   background-color: transparent;
   text-decoration: underline;
+}
+a:text {
+    color:#136433;
 }
 
-a:active {
-  color: rgb(77, 70, 70);
-  background-color: transparent;
-  text-decoration: underline;
-}
 </style>
 
