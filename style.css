@@ -1,0 +1,110 @@
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Darker green for header */
+    color: white;
+}
+nav.header-nav {
+    display: flex;
+    justify-content: center; 
+    margin: 10px 0; 
+}
+nav.header-nav a {
+    margin: 0 15px; 
+    color: white; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+nav.header-nav a:hover {
+    color: #fbbc14; 
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+nav.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+}
+nav.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+nav.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav.sidebar ul li {
+    margin: 10px 0;
+}
+nav.sidebar a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s; 
+}
+nav.sidebar a:hover {
+    text-decoration: underline;
+    color: #fbbc14; 
+}
+main.content {
+    padding: 20px; 
+    flex-grow: 1;
+    background-color: #fff;
+}
+h2, h3 {
+    color: #333;
+    margin-top: 20px; 
+}
+p {
+    margin-bottom: 15px; 
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 5px; 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; 
+    color: white;
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+}
+footer nav {
+    margin: 10px 0; 
+}
+footer nav a {
+    margin: 0 15px; 
+    color: white; 
+    text-decoration: none;
+}
+footer nav a:hover {
+    color: #fbbc14; /* Highlight color on hover */
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    nav.sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+}
+</style>
